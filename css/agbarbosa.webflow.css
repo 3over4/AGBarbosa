@@ -1,0 +1,195 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+h1 {
+  margin-bottom: 10px;
+  font-size: 38px;
+  line-height: 37px;
+  font-weight: 300;
+}
+h2 {
+  margin-bottom: 10px;
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 300;
+}
+h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 300;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+p {
+  margin-bottom: 15px;
+  float: left;
+  color: #9ea8a4;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: justify;
+}
+.button {
+  display: inline-block;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  background-color: #25c485;
+  color: white;
+  text-align: center;
+}
+.button:hover {
+  background-color: #b5b5b5;
+}
+.header {
+  height: 530px;
+  background-image: url('../images/feup.jpg');
+  background-position: 85% top;
+  background-size: cover;
+  box-shadow: 0px 3px 0px 0px black inset;
+}
+.header.sub-page {
+  background-image: url('../images/profile-dude-blue.jpg');
+  background-position: 50% 100%;
+}
+.section {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+.section.grey {
+  background-color: #f0f0f0;
+}
+.section.green {
+  background-color: #f2f7f6;
+}
+.nav-link {
+  display: block;
+  margin-bottom: 8px;
+  font-family:"Roboto Condensed", sans-serif;
+  color: #32a879;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+.nav-link:hover {
+  color: #166bcc;
+}
+.navigation {
+  position: fixed;
+  z-index: 10;
+  padding-top: 33px;
+  padding-bottom: 38px;
+  background-color: white;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.05);
+}
+.logo {
+  margin-bottom: 22px;
+  font-size: 33px;
+  line-height: 36px;
+  font-weight: 300;
+  text-align: right;
+  text-transform: capitalize;
+}
+.align-right {
+  text-align: right;
+}
+.image {
+  margin-bottom: 20px;
+  background-image: url('../images/example-bg.png');
+  background-size: 125px auto;
+}
+.thumbnail {
+  margin-bottom: 26px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: white;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.06);
+}
+.journal-entry {
+  display: block;
+  margin-bottom: 19px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border-top: 1px solid #dce6e4;
+  border-bottom: 1px solid #dce6e4;
+  -webkit-transition: background-color 300ms ease;
+  -o-transition: background-color 300ms ease;
+  transition: background-color 300ms ease;
+  color: #333;
+}
+.journal-entry:hover {
+  background-color: #f2f7f6;
+}
+.logo-link {
+  color: #333;
+}
+.field {
+  height: 53px;
+  border-top: 1px solid #d1e6dd;
+  border-bottom: 1px solid #d1e6dd;
+  box-shadow: 0px 1px 0px 0px transparent inset;
+}
+.field:focus {
+  border-top-color: #24c786;
+  border-bottom-color: #24c786;
+  box-shadow: 0px 0px 8px 0px transparent inset;
+}
+.field.comments {
+  height: 101px;
+}
+.success {
+  padding-top: 47px;
+  padding-bottom: 47px;
+  background-color: #e3e3e3;
+  color: black;
+  text-align: center;
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+  .header {
+    height: auto;
+    background-attachment: scroll;
+  }
+  .section {
+    padding-top: 29px;
+    padding-bottom: 29px;
+  }
+  .navigation {
+    position: static;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 0px 0px 1px transparent;
+  }
+  .align-right {
+    text-align: left;
+  }
+  .thumbnail {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 479px) {
+}
+
